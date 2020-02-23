@@ -17,3 +17,4 @@ The code is poor in the following ways:
 * Fix issue when recovery from missing connectivity, until local buffer has been written away no new values are being read
 * A ton of other things
 * List the dependencies' repos / URLs / details (Arduino libraries)
+* be more efficient with RAM (datatypes in struct)

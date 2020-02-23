@@ -1,7 +1,7 @@
 /*
  * Connect to Wifi and set time
  * 
- * display time and rssi on SSD106 I2C display
+ * display time and rssi on SSD1306 I2C display
  * 
  * Read temperature from DS18B20 via w1
  * Read temperature from MAX6675 via SPI
@@ -58,7 +58,7 @@ struct Measurement {
   float mpu6050_accel_z;
   float mpu6050_gyro_x;
   float mpu6050_gyro_y;
-  float mpu6050_gyro_z;  
+  float mpu6050_gyro_z;
   float mpu6050_temperature;
   unsigned int analog0;
   // We assume 0-5 volt
